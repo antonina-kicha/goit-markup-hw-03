@@ -335,7 +335,8 @@ FOOTER
 ================================================== */
 .container-portfolio .filtr {
   display: flex;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
 }
 
