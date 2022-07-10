@@ -155,14 +155,11 @@ HEADER
   color: var(--title-text-color);
 }
 
-.container {
+.section {
   padding-top: 94px;
 }
-.container-header,
-.container-footer {
-  padding-top: 0;
-}
-.last-container {
+
+.last-section {
   padding-bottom: 94px;
 }
 
@@ -173,12 +170,13 @@ HERO
 .hero {
   background-color: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   width: 696px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 106px;
 
   font-weight: 900;
   font-size: 44px;
@@ -191,7 +189,6 @@ HERO
   display: inline-block;
   padding: 10px 32px;
   margin-top: 30px;
-  margin-bottom: 200px;
   border: none;
   border-radius: 4px;
 
@@ -299,8 +296,9 @@ FOOTER
   background-color: #2f303a;
 }
 
-.footer .container {
+.footer {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer a {
   font-style: normal;
@@ -316,8 +314,7 @@ FOOTER
 }
 .address {
   width: 231px;
-  padding-top: 20px;
-  padding-bottom: 60px;
+  margin-top: 20px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -336,18 +333,14 @@ FOOTER
 .container-portfolio .filtr {
   display: flex;
   justify-content: center;
-  /* margin-left: auto;
-  margin-right: auto; */
+
   margin-bottom: 50px;
 }
 
-.container-portfolio {
-  padding-bottom: 94px;
+.header-line {
+  border-bottom: 1px solid #ececec;
 }
 
-.portfolio {
-  border-top: 1px solid #ececec;
-}
 .worklist {
   margin: -15px;
 }
